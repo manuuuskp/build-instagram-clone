@@ -1,11 +1,18 @@
 import React from "react";
-import "./styles.css";
+import "./App.css";
+import Post from "./Post";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="app">
+      <div className="app_header">
+        <img
+          className="app_headerImage"
+          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+          alt="Instagram"
+        />
+      </div>
+      <Post />
     </div>
   );
 }
