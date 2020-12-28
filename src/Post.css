@@ -1,6 +1,8 @@
 .post_image {
   object-fit: "contain";
   width: 100%;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .post_text {
@@ -16,4 +18,11 @@
 
 .post_avatar {
   margin-right: 10px;
+}
+
+.post {
+  max-width: 500px;
+  border: 1px solid lightgray;
+  background-color: white;
+  margin: 40px;
 }

@@ -12,7 +12,13 @@ export default function App() {
           alt="Instagram"
         />
       </div>
-      <Post />
+      <Post username="manojprabhu" imageUrl="" caption="Hiii ! Goooood day !" />
+      <Post
+        username="__filerkaapi__"
+        imageUrl="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F165999936242363032%2F&psig=AOvVaw3OTunGgTtPOTUIam9ScQjo&ust=1609213343379000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDzqoDh7-0CFQAAAAAdAAAAABAD"
+        caption="Hurray, I won"
+      />
+      <Post username="valli" imageUrl="" caption="This is my family" />
     </div>
   );
 }
