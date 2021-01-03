@@ -11,11 +11,7 @@ function Post({ username, imageUrl, caption }) {
         <h3>{username}</h3>
       </div>
       {/** post - image */}
-      <img
-        className="post_image"
-        src="https://i.pinimg.com/originals/99/f9/ed/99f9ede31328c8484e9e252d08811535.jpg"
-        alt=""
-      />
+      <img className="post_image" src={imageUrl} alt="" />
       {/** username : comments */}
       <h4 className="post_text">
         <strong>{username}</strong> {caption}
