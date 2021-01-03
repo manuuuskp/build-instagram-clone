@@ -34,7 +34,7 @@ export default function ImageUpload({ username }) {
           .getDownloadURL()
           .then((url) => {
             db.collection("posts").add({
-              timeStamp: firebase.firestore.FieldValue.serverTimestamp(),
+              timestamp: firebase.firestore.FieldValue.serverTimestamp(),
               caption: caption,
               imageUrl: url,
               username: username
